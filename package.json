@@ -1,0 +1,47 @@
+{
+  "name": "fistful",
+  "version": "1.0.0",
+  "description": "A static site generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "init": "babel-node src/app.js init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfehrman/fistful.git"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "generator",
+    "html",
+    "node",
+    "javascript",
+    "js",
+    "es6",
+    "react"
+  ],
+  "author": "Joseph Fehrman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfehrman/fistful/issues"
+  },
+  "homepage": "https://github.com/jfehrman/fistful#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-fs": "^1.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "file-system": "^2.2.2",
+    "prompt": "^1.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "path": "^0.12.7"
+  }
+}
